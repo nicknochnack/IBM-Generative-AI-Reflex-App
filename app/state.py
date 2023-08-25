@@ -9,7 +9,7 @@ from genai.model import Model
 # Get reflex config
 config = rx.config.get_config()
 # Set your APIKEY
-APIKEY = config.watonx_api_key
+APIKEY = config.watsonx_api_key
 # Define credentials 
 creds = Credentials(APIKEY, api_endpoint=config.watsonx_api_endpoint)
 # Define generation parameters 
@@ -22,7 +22,7 @@ params = GenerateParams(decoding_method="sample",
                         top_p=0.3, 
                         repetition_penalty=2.0)
 
-llm = Model(config.watonx_model, params=params, credentials=creds)
+llm = Model(config.watsonx_model, params=params, credentials=creds)
 
 class State(rx.State):
     """The app state."""
