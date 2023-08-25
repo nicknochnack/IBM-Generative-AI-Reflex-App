@@ -1,0 +1,2 @@
+ibm-generative-ai==0.2.5
+reflex==0.2.6
