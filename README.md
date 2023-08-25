@@ -10,7 +10,7 @@ Learning how to build applications with Reflex <a href="https://reflex.dev/">Ref
 2. Activate the environment `conda activate reflexdev`
 3. Install stuff `pip install -r requirements.txt`
 4. Initialise the app by running `reflex init`
-5. Update `watonx_api_key`, `watonx_model` and `watsonx_api_endpoint` in `rxconfig.py`
+5. Update `watsonx_api_key`, `watsonx_model` and `watsonx_api_endpoint` in `rxconfig.py`
 6. Run the app by running `reflex run` or `reflex run --loglevel debug` to enable debugging
 
 # Notes
